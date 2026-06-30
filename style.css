@@ -1,0 +1,40 @@
+.topnav {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    background-color: #04355a;
+    padding: 10px 30px;
+}
+
+.nav-logo img {
+    height: 50px;
+    width: auto;
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links a {
+    color: #eb9514;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 8px 12px;
+    border-radius: 6px;
+}
+
+.nav-links a:hover {
+    background-color: #1d6fa5;
+}
+
+body {
+  background-color: rgb(95, 185, 224);
+}
+
+#map {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
