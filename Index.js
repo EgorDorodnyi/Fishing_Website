@@ -6,3 +6,6 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; OpenStreetMap contributors'
 }).addTo(map);
 
+// Example fishing spot marker
+L.marker([-36.8485, 174.7633]).addTo(map)
+    .bindPopup('Auckland fishing spot');
